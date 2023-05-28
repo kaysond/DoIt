@@ -4,6 +4,24 @@ header {
   background-color: $header-background-color;
   @include transition(box-shadow 0.3s ease);
 
+  img.logo {
+    display: inline
+  }
+
+  .logo {
+    min-height: 1.5em;
+    height: 1.5em;
+    vertical-align: text-top;
+  }
+
+  .logo, .header-title-pre {
+    padding-right: .25rem;
+  }
+
+  .header-title-post {
+    padding-left: .25rem;
+  }
+
   &:hover {
     @include box-shadow(0 0 1.5rem 0 rgba(0, 0, 0, 0.1));
   }
