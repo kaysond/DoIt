@@ -4,13 +4,6 @@ header {
   background-color: $header-background-color;
   @include transition(box-shadow 0.3s ease);
 
-  [theme=dark] & {
-    background-color: $header-background-color-dark;
-  }
-  [theme=black] & {
-    background-color: $header-background-color-black;
-  }
-
   img.logo {
     display: inline
   }
