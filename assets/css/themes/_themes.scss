@@ -1,10 +1,10 @@
 // Syntax for themes light
 .light {
-  @import "syntax-light";
+  @import "syntax-light-monokai";
 }
 // Syntax for themes dark
 .dark {
-  @import "syntax-dark";
+  @import "syntax-dark-monokai";
 }
 // Syntax for gist dark
 @import "syntax-gist-dark";
